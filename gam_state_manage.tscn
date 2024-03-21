@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://di4fuygncoktw"]
+
+[ext_resource type="Script" path="res://Script/gam_state_manage.gd" id="1_r3otq"]
+
+[node name="GamStateManage" type="Node"]
+script = ExtResource("1_r3otq")
+
+[node name="Timer" type="Timer" parent="."]
